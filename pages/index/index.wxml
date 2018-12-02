@@ -1,14 +1,19 @@
 <!--index.wxml-->
-<view class="container">
-<view class="search-bar">
-<view class="input-search">
-  <input placeholder="这是一个可以自动聚焦的input" auto-focus/>
-</view>
-  <view class="record-search">
-    <button> 语音 </button>
-    <button bindtap='takePicture'> 拍照 </button>   
+<view class="">
+  <view class="search-bar">
+    <view class="input-search">
+      <input placeholder="请输入单词或短语" />
+    </view>
+    <view class="record-search">
+      <button> 语音 </button>
+      <button bindtap='takePicture'> 拍照 </button>
+    </view>
+    <view class="language">
+      <button> 中英 </button>
+      <button> 中日 </button>
+      <button> 中俄 </button>
+    </view>
   </view>
-</view>
   <!-- <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>

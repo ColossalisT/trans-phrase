@@ -1,4 +1,39 @@
 /**index.wxss**/
-.input-search{
-  text-align: left;
+
+page {
+  height: 100%;
+  background-color: #f8f8f8;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 2px #ededed;
+}
+
+.input-search {
+  padding: 10px;
+}
+
+.input-search input {
+  padding: 5px;
+  line-height: 30px;
+}
+
+.record-search {
+  display: flex;
+  justify-content: space-between;
+}
+
+.record-search button {
+  width: 40%;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.language {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
 }
