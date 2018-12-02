@@ -1,0 +1,4 @@
+/**index.wxss**/
+.input-search{
+  text-align: left;
+}
